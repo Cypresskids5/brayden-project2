@@ -1,0 +1,52 @@
+body{
+    background-color: cyan;
+}
+h1:hover{
+     background-color: red;
+color: maroon;
+transition:3s ease;
+cursor:pointer;
+font-size: 110px;
+}
+
+#madcat{
+    width: 900px
+}
+#can1{
+  display:flex;
+    animation:moveRight 0.1s linear infinite;
+    background-color: goldenrod;
+
+
+}
+
+
+#can2{
+    background-color: aquamarine;
+ }   
+#can3{
+@keyframes
+    background-color: red;
+}
+
+
+@keyframes moveRight {
+0%{
+        transform:translate(100px) rotate(360deg);
+
+    }
+    50%{
+        transform:translate(0px) rotate(0deg);
+
+    }
+}
+
+div{
+   height: 500px;
+   display:flex;
+}
+canvas{
+    height:200px;
+    width: 200px;
+
+    }
